@@ -2,10 +2,10 @@
 session_start();
 
 // Database connection
-$servername = "labproject-server.mysql.database.azure.com";
-$username = "mqlirefgtl";
-$password = "eVxbQb00aNn$$pK2";
-$dbname = "labproject-server";
+$servername = "smartclassroom.mysql.database.azure.com";
+$username = "Sazia";
+$password = "sazia@2000";
+$dbname = "labproject";
 
 try {
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
@@ -301,3 +301,4 @@ if (isset($_POST['logout'])) {
 </body>
 </html>
 <?php $conn = null; ?>
+
